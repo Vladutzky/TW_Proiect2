@@ -1,0 +1,39 @@
+{
+    "Circuite": [
+        {
+            "url": "C:\\Users\\Vlad\\Desktop\\Proiect TW\\express\\Aragon.jpg",
+            "nume": "Aragon",
+            "lungime": "5301",
+            "saptamana": "13",
+            "id": "63f52817-29a0-4afd-af12-cae1ec101428"
+        },
+        {
+            "url": "C:\\Users\\Vlad\\Desktop\\Proiect TW\\express\\Barcelona.jpg",
+            "nume": "Barcelona",
+            "lungime": "4910",
+            "saptamana": "20",
+            "id": "9e3f7343-a985-4e59-a49c-d229a5e34c77"
+        },
+        {
+            "url": "C:\\Users\\Vlad\\Desktop\\Proiect TW\\express\\Jerez.jpg",
+            "nume": "Jerez de la frontiera",
+            "lungime": "3981",
+            "saptamana": "30",
+            "id": "5c7b6e1a-e36c-43d6-80b1-1f96172dc9c1"
+        },
+        {
+            "url": "C:\\Users\\Vlad\\Desktop\\Proiect TW\\express\\Lemans.jpg",
+            "nume": "Le mans 24H",
+            "lungime": "9100",
+            "saptamana": "44",
+            "id": "73d52c11-9d16-4fe2-a5e9-e58e6ba28c92"
+        },
+        {
+            "url": "C:\\Users\\Vlad\\Desktop\\Proiect TW\\express\\Mugello.jpg",
+            "nume": "Mugello",
+            "lungime": "3456",
+            "saptamana": "52",
+            "id": "446dd33e-18d9-464c-90bb-5a79aae5cc6c"
+        }
+    ]
+}

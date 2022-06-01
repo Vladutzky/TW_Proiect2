@@ -1,0 +1,1143 @@
+* {
+    box-sizing: border-box;
+}
+
+.header{
+    position: relative;
+    text-align: center;
+}
+
+.header-background{
+    width: 100%;
+    height: 50%;
+    opacity: 0.5;
+}
+
+.title{
+    top: 45%;
+    left: 50%;
+    font-weight: bold;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-family: 'Shizuru', cursive;
+    font-size: 50px;
+}
+
+.subtitle{
+    position: absolute;
+    text-align: center;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
+
+.main-menu{
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menu-item{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px 15px;
+}
+
+
+
+.menu-item-active{
+    background-color: darkred;
+    color: black;
+}
+
+
+
+.box{
+    border-style: inset;
+    justify-content: space-around;
+    display: grid;
+
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+}
+
+
+.son1{
+    display: grid;
+    height: 70vh;
+    background: url('poza2.jpg');
+    background-repeat: no-repeat;
+    background-size: 160%;
+    background-position: 50%;
+    border-style: inset;
+    justify-content: space-around;
+    
+
+    font-family: 'papyrus', sans-serif;
+    padding: 10px;
+    
+}
+.son2{
+    height: 70vh;
+    display: grid;
+    background: url('poza3.jpg');
+    background-repeat: no-repeat;
+    background-size: 160%;
+    background-position: 50%;
+    
+    
+    justify-content: space-around;
+    
+
+    font-family: 'Quicksand', cursive;
+    padding: 10px;
+}
+.son3{
+    height: 70vh;
+    background: url('poza4.jpg');
+    background-size: 160%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-style: inset;
+    justify-content: space-around;
+    display: grid;
+
+    font-family: 'copperplate', cursive;
+    padding: 10px;
+}
+
+main{
+    height:70vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    grid-template-areas:
+        "box1 box2 box3";
+        
+    
+}
+.son1{
+    grid-area: box1;
+
+}
+.son2{
+    grid-area:box2;
+}
+.son3{
+    grid-area:box3;
+}
+
+
+.box1{
+    text-align: left;
+    color:firebrick;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.box1-title{
+    font:firebrick;
+    font-size: 18px;
+}
+.box1-text{
+    color: whitesmoke;
+    background-color:limegreen;
+    margin-top: 280px;
+    margin-bottom: 200px;
+    text-align:justify;
+    text-align-last: center;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 17px;
+}
+.box2{
+    text-align: left;
+    color:#ff7420;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.box2-title{
+    font:firebrick;
+    text-align: center;
+    font-size: 18px;
+}
+.box2-text{
+    
+    color:whitesmoke;
+    background-color:darkblue;
+    margin-top: 300px;
+    margin-bottom: 150px;
+    text-align:end;
+    text-align-last: center;
+    font-size: 17px;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-family: 'monaco', fantasy;
+}
+.box3{
+    text-align: left;
+    color:firebrick;
+    background-repeat: no-repeat;
+    
+    
+}
+.box3-title{
+    color:whitesmoke;
+    text-align: right;
+    font-size: 18px;
+}
+.box3-text{
+    color:darkorange;
+    background-color: darkred;
+    margin-top: 300px;
+    margin-bottom: 150px;
+    text-align:end;
+    text-align-last: center;
+    font-size: 17px;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+/* aici incepe partea pt constructor*/
+.cson1{
+    display: grid;
+    height: 70vh;
+    background: url('poza2_c.jpg');
+    
+    background-size: 160%;
+    background-position: 50%;
+    border-style: inset;
+    justify-content: space-around;
+    
+
+    font-family: 'papyrus';
+    padding: 10px;
+    
+}
+.cson2{
+    height: 70vh;
+    display: grid;
+    background: url('poza3_c.jpg');
+    background-size: 160%;
+    background-position: 50%;
+    
+    
+    justify-content: space-around;
+    
+
+    font-family:  sans-serif;
+    padding: 10px;
+}
+.cson3{
+    height: 70vh;
+    background: url('poza4_c.jpg');
+    background-size: 160%;
+    background-position: 50%;
+   
+    border-style: inset;
+    justify-content: space-around;
+    display: grid;
+
+    font-family: 'Garamond';
+    padding: 10px;
+}
+cmain{
+    height:70vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    grid-template-areas:
+        "box1 box2 box3";
+        
+    
+}
+.cson1{
+    grid-area: box1;
+
+}
+.cson2{
+    grid-area:box2;
+}
+.cson3{
+    grid-area:box3;
+}
+
+
+.cbox1{
+    text-align: left;
+    color:firebrick;
+    
+}
+
+.cbox1-title{
+    color: aqua;
+    font-size: 18px;
+}
+.cbox1-text{
+    color: whitesmoke;
+    background-color:lightblue;
+    margin-top: 190px;
+    margin-bottom: 150px;
+    
+    
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 17px;
+}
+.cbox2{
+    text-align: left;
+    color:#ff7420;
+    
+    
+}
+.cbox2-title{
+    color:aliceblue;
+    text-align: center;
+    font-size: 18px;
+}
+.cbox2-text{
+    
+    color:yellow;
+    background-color:darkblue;
+    margin-top: 300px;
+    margin-bottom: 150px;
+    text-align:end;
+    text-align-last: center;
+    font-size: 17px;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-family: 'Garamond';
+}
+.cbox3{
+    text-align: left;
+    color:firebrick;
+    
+}
+.cbox3-title{
+    color:black;
+    text-align: right;
+    font-size: 18px;
+}
+.cbox3-text{
+    color:rgb(16, 19, 197);
+    background-color: rgb(18, 218, 28);
+    margin-top: 250px;
+    margin-bottom: 150px;
+    text-align:end;
+    text-align-last: center;
+    font-size: 17px;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+/* aici incepe partea pt rider*/
+.tson1{
+    display: grid;
+    height: 70vh;
+    background: url('poza2_t.jpg');
+    
+    background-size: 160%;
+    background-position: 50%;
+    border-style: inset;
+    justify-content: space-around;
+    
+
+    font-family: fantasy;
+    padding: 10px;
+    
+}
+.tson2{
+    height: 70vh;
+    display: grid;
+    background: url('poza3_t.jpg');
+    background-size: 160%;
+    background-position: 50%;
+    
+    
+    justify-content: space-around;
+    
+
+    font-family: 'Courier New';
+    padding: 10px;
+}
+.tson3{
+    height: 70vh;
+    background: url('poza4_t.jpg');
+    background-size: 160%;
+    background-position: 50%;
+   
+    border-style: inset;
+    justify-content: space-around;
+    display: grid;
+
+    font-family: 'Copperplate';
+    padding: 10px;
+}
+tmain{
+    height:70vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    grid-template-areas:
+        "box1 box2 box3";
+        
+    
+}
+.tson1{
+    grid-area: box1;
+
+}
+.tson2{
+    grid-area:box2;
+}
+.tson3{
+    grid-area:box3;
+}
+
+
+.tbox1{
+    text-align: left;
+    color:firebrick;
+    
+}
+
+.tbox1-title{
+    font:firebrick;
+    font-size: 18px;
+}
+.tbox1-text{
+    color: whitesmoke;
+    background-color:limegreen;
+    margin-top: 280px;
+    margin-bottom: 200px;
+    text-align:justify;
+    text-align-last: center;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 17px;
+}
+.tbox2{
+    text-align: left;
+    color:#ff7420;
+    
+    
+}
+.tbox2-title{
+    font:firebrick;
+    text-align: center;
+    font-size: 18px;
+}
+.tbox2-text{
+    
+    color:whitesmoke;
+    background-color:darkblue;
+    margin-top: 300px;
+    margin-bottom: 150px;
+    text-align:end;
+    text-align-last: center;
+    font-size: 17px;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-family: serif;
+}
+.tbox3{
+    text-align: left;
+    color:firebrick;
+    
+}
+.tbox3-title{
+    color:black;
+    text-align: right;
+    font-size: 18px;
+}
+.tbox3-text{
+    color:rgb(7, 71, 36);
+    background-color: rgb(66, 12, 216);
+    margin-top: 300px;
+    margin-bottom: 150px;
+    text-align:end;
+    text-align-last: center;
+    font-size: 17px;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+/* aici incepe partea pt rider*/
+.rson1{
+    display: grid;
+    height: 70vh;
+    background: url('poza2_r.jpg');
+    
+    background-size: 160%;
+    background-position: 50%;
+    border-style: inset;
+    justify-content: space-around;
+    
+
+    font-family: serif;
+    padding: 10px;
+    
+}
+.rson2{
+    height: 70vh;
+    display: grid;
+    background: url('poza3_r.jpg');
+    background-size: 160%;
+    background-position: 50%;
+    
+    
+    justify-content: space-around;
+    
+
+    font-family: '	Times New Roman';
+    padding: 10px;
+}
+.rson3{
+    height: 70vh;
+    background: url('poza4_r.jpg');
+    background-size: 160%;
+    background-position: 50%;
+   
+    border-style: inset;
+    justify-content: space-around;
+    display: grid;
+
+    font-family: cursive;
+    padding: 10px;
+}
+rmain{
+    height:70vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    grid-template-areas:
+        "box1 box2 box3";
+        
+    
+}
+.rson1{
+    grid-area: box1;
+
+}
+.rson2{
+    grid-area:box2;
+}
+.rson3{
+    grid-area:box3;
+}
+
+
+.rbox1{
+    text-align: left;
+    color:firebrick;
+    
+}
+
+.rbox1-title{
+    font:firebrick;
+    font-size: 18px;
+}
+.rbox1-text{
+    color: rgb(0, 0, 0);
+    background-color:rgb(206, 16, 16);
+    margin-top: 280px;
+    margin-bottom: 200px;
+    text-align:justify;
+    text-align-last: center;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 17px;
+}
+.rbox2{
+    text-align: left;
+    color:#ff7420;
+    
+    
+}
+.rbox2-title{
+    color:bisque;
+    text-align: center;
+    font-size: 18px;
+}
+.rbox2-text{
+    
+    color:rgb(57, 75, 29);
+    background-color:rgb(59, 10, 37);
+    margin-top: 300px;
+    margin-bottom: 150px;
+    text-align:end;
+    text-align-last: center;
+    font-size: 17px;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-family: 'Verdana';
+}
+.rbox3{
+    text-align: left;
+    color:firebrick;
+    
+}
+.rbox3-title{
+    color:#0c5217;
+    text-align: right;
+    font-size: 18px;
+}
+.rbox3-text{
+    color:rgb(94, 46, 99);
+    background-color: rgb(86, 84, 121);
+    margin-top: 300px;
+    margin-bottom: 150px;
+    text-align:end;
+    text-align-last: center;
+    font-size: 17px;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.track-holder1{  
+
+   background:  url("background1.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   
+}
+
+.track-holder2{  
+
+    background:  url("background2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+
+ .track-holder3{  
+
+    background:  url("background3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+
+ .track-holder4{  
+
+    background:  url("background4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+
+ .track-holder5{  
+
+    background:  url("background5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+
+.poza-circuit{  
+
+width:50%;
+margin-left: auto;
+display: block;
+
+}
+.lungime-circuit{   
+    width:30%;
+    margin-right: auto;
+    display: block;
+font-size:300%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: white;
+
+}
+.saptamana-circuit{ 
+    width:30%;
+    margin-right: auto;
+    display: block;
+font-size:300%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: white;
+
+}
+.nume-circuit{  
+
+    width:30%;
+    margin-right: auto;
+    display: block;
+font-size:300%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: white;
+
+
+}
+
+
+/* aici incepe resize */
+
+@media(max-width:768px){
+    /* motogp */
+    
+    .title{
+        font-size: 130%;
+    }
+    .subtitle{
+        font-size: 60%;
+    }
+    .main{
+        font-size: 85%;
+    }
+    .box{
+        width: 100%;
+    }
+    .box1-text{
+        font-size: 75%;
+        margin-top: 130%;
+        margin-bottom: 5%;
+    }
+
+    .box1-title{
+        font-size: 75%;
+
+    }
+    .box2-text{
+        font-size: 75%;
+        margin-top: 130%;
+        margin-bottom: 5%;
+    }
+
+    .box2-title{
+        font-size: 75%;
+    }
+    .box3-text{
+        font-size: 75%;
+        margin-top: 130%;
+        margin-bottom: 5%;
+    }
+
+    .box3-title{
+        font-size: 75%;
+    }
+    .son1{
+        background-size:cover;
+    }
+    .son2{
+        background-size:cover;}
+    .son3{
+        background-size:cover;
+    }
+    /* constructors */
+    .menu-item{
+        width: 10%;
+    }
+    .title{
+        font-size: 130%;
+    }
+    .subtitle{
+        font-size: 60%;
+    }
+    .cmain{
+        font-size: 85%;
+    }
+    .cbox{
+        width: 100%;
+    }
+    .cbox1-text{
+        font-size: 75%;
+        margin-top: 130%;
+        margin-bottom: 5%;
+    }
+
+    .cbox1-title{
+        font-size: 75%;
+
+    }
+    .cbox2-text{
+        font-size: 75%;
+        margin-top: 130%;
+        margin-bottom: 5%;
+    }
+
+    .cbox2-title{
+        font-size: 75%;
+    }
+    .cbox3-text{
+        font-size: 75%;
+        margin-top: 130%;
+        margin-bottom: 5%;
+    }
+
+    .cbox3-title{
+        font-size: 75%;
+    }
+    .cson1{
+        background-size:cover;
+    }
+    .cson2{
+        background-size:cover;}
+    .cson3{
+        background-size:cover;
+    }
+
+    /* riders */
+    .menu-item{
+        width: 10%;
+    }
+    .title{
+        font-size: 130%;
+    }
+    .subtitle{
+        font-size: 60%;
+    }
+    .rmain{
+        font-size: 85%;
+    }
+    .rbox{
+        width: 100%;
+    }
+    .rbox1-text{
+        font-size: 75%;
+        margin-top: 130%;
+        margin-bottom: 5%;
+    }
+
+    .rbox1-title{
+        font-size: 75%;
+
+    }
+    .rbox2-text{
+        font-size: 75%;
+        margin-top: 130%;
+        margin-bottom: 5%;
+    }
+
+    .rbox2-title{
+        font-size: 75%;
+    }
+    .rbox3-text{
+        font-size: 75%;
+        margin-top: 130%;
+        margin-bottom: 5%;
+    }
+
+    .rbox3-title{
+        font-size: 75%;
+    }
+    .rson1{
+        background-size:cover;
+    }
+    .rson2{
+        background-size:cover;}
+    .rson3{
+        background-size:cover;
+    }
+     
+}
+
+@media (max-width: 990px){
+    /* motogp */
+    .title{
+        font-size: 130%;
+    }
+    .subtitle{
+        font-size: 60%;
+    }
+    .box{
+        width: 100%;
+    }
+    .box1-text{
+        font-size: 75%;
+        margin-top: 130%;
+        margin-bottom: 5%;
+    }
+
+    .box1-title{
+        font-size: 75%;
+
+    }
+    .box2-text{
+        font-size: 75%;
+        margin-top: 130%;
+        margin-bottom: 5%;
+    }
+
+    .box2-title{
+        font-size: 75%;
+    }
+    .box3-text{
+        font-size: 75%;
+        margin-top: 130%;
+        margin-bottom: 5%;
+    }
+
+    .box3-title{
+        font-size: 75%;
+    }
+    .son1{
+        background-size:cover;
+    }
+    .son2{
+        background-size:cover;}
+    .son3{
+        background-size:cover;
+    }
+    /* constructors */
+
+    .title{
+        font-size: 130%;
+    }
+    .subtitle{
+        font-size: 60%;
+    }
+    .cbox{
+        width: 100%;
+    }
+    .cbox1-text{
+        font-size: 75%;
+        margin-top: 130%;
+        margin-bottom: 5%;
+    }
+
+    .cbox1-title{
+        font-size: 75%;
+
+    }
+    .cbox2-text{
+        font-size: 75%;
+        margin-top: 130%;
+        margin-bottom: 5%;
+    }
+
+    .cbox2-title{
+        font-size: 75%;
+    }
+    .cbox3-text{
+        font-size: 75%;
+        margin-top: 130%;
+        margin-bottom: 5%;
+    }
+
+    .cbox3-title{
+        font-size: 75%;
+    }
+    .cson1{
+        background-size:cover;
+    }
+    .cson2{
+        background-size:cover;}
+    .cson3{
+        background-size:cover;
+    }
+    
+    /* riders */
+    .title{
+        font-size: 130%;
+    }
+    .subtitle{
+        font-size: 60%;
+    }
+    .rbox{
+        width: 100%;
+    }
+    .rbox1-text{
+        font-size: 75%;
+        margin-top: 130%;
+        margin-bottom: 5%;
+    }
+
+    .rbox1-title{
+        font-size: 75%;
+
+    }
+    .rbox2-text{
+        font-size: 75%;
+        margin-top: 130%;
+        margin-bottom: 5%;
+    }
+
+    .rbox2-title{
+        font-size: 75%;
+    }
+    .rbox3-text{
+        font-size: 75%;
+        margin-top: 130%;
+        margin-bottom: 5%;
+    }
+
+    .rbox3-title{
+        font-size: 75%;
+    }
+    .rson1{
+        background-size:cover;
+    }
+    .rson2{
+        background-size:cover;}
+    .rson3{
+        background-size:cover;
+    }
+     
+}
+
+@media (min-width: 990px){
+    /* motogp */
+    .title{
+        font-size: 130%;
+    }
+    .subtitle{
+        font-size: 60%;
+    }
+    .box{
+        width: 100%;
+    }
+    .box1-text{
+        font-size: auto;
+        margin-top: auto;
+        margin-bottom: 5%;
+    }
+
+    .box1-title{
+        font-size: 75%;
+
+    }
+    .box2-text{
+        font-size: auto;
+        margin-top: auto;
+        margin-bottom: 5%;
+       
+    }
+
+    .box2-title{
+        font-size: 75%;
+    }
+    .box3-text{
+        
+        margin-top:auto;
+        margin-bottom:auto;
+        margin-bottom: 5%;
+    }
+
+    .box3-title{
+        font-size: 75%;
+    }
+    .son1{
+        background-size:cover;
+    }
+    .son2{
+        background-size:cover;}
+    .son3{
+        background-size:cover;
+    }
+    /* constructors */
+    .title{
+        font-size: 130%;
+    }
+    .subtitle{
+        font-size: 60%;
+    }
+    .cbox{
+        width: 100%;
+    }
+    .cbox1-text{
+        font-size: auto;
+        margin-top: auto;
+        margin-bottom: 5%;
+    }
+
+    .cbox1-title{
+        font-size: 75%;
+
+    }
+    .cbox2-text{
+        font-size: auto;
+        margin-top: auto;
+        margin-bottom: 5%;
+       
+    }
+
+    .cbox2-title{
+        font-size: 75%;
+    }
+    .cbox3-text{
+        
+        margin-top:auto;
+        margin-bottom:auto;
+        margin-bottom: 5%;
+    }
+
+    .cbox3-title{
+        font-size: 75%;
+    }
+    .cson1{
+        background-size:cover;
+    }
+    .cson2{
+        background-size:cover;}
+    .cson3{
+        background-size:cover;
+    }
+    
+    /* riders */
+    .title{
+        font-size: 130%;
+    }
+    .subtitle{
+        font-size: 60%;
+    }
+    .rbox{
+        width: 100%;
+    }
+    .rbox1-text{
+        font-size: auto;
+        margin-top: auto;
+        margin-bottom: 5%;
+    }
+
+    .rbox1-title{
+        font-size: 75%;
+
+    }
+    .rbox2-text{
+        font-size: auto;
+        margin-top: auto;
+        margin-bottom: 5%;
+       
+    }
+
+    .rbox2-title{
+        font-size: 75%;
+    }
+    .rbox3-text{
+        
+        margin-top:auto;
+        margin-bottom:auto;
+        margin-bottom: 5%;
+    }
+
+    .rbox3-title{
+        font-size: 75%;
+    }
+    .rson1{
+        background-size:cover;
+    }
+    .rson2{
+        background-size:cover;}
+    .rson3{
+        background-size:cover;
+    }
+    
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang = "eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href ="style.css">
+        <title>Calendar</title>
+    </head>
+    <body>
+        <nav class = "main-menu">
+            <a class="menu-item " href="MotoGP.html">Home</a>
+            <a class="menu-item" href="Constructors.html">Constructors</a>
+            <a class="menu-item " href="Riders.html">Riders</a>
+            <a class="menu-item menu-item-active" href="Calendar.html">Calendar</a>
+             
+        </nav>
+        <div class="input-container main-container">
+            <input id="url" type="url" placeholder="Image URL">
+            <input id="nume-adaugat" type="nume" placeholder="nume">  
+            <input id="lungime-adaugat" type="lungime" placeholder="lungime">  
+            <input id="saptamana-adaugat" type="saptamana" placeholder="saptamana">  
+            <!-- in loc de update face adaugare -->
+            <!-- delete nu merge -->
+            <!-- add si get merg -->
+            <button onclick="add()">Add</button>
+            <button onclick="update()">Update</button>
+            <button onclick="deleteTrack()">Remove</button>
+        </div>
+        <p> Now it is your job to make the perfect MotoGp calendar</p>
+
+        <div id="poze"></div>
+        <script src="script_calendar.js"></script>
+    </body>
+    </html>
